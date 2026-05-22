@@ -65,19 +65,8 @@ cd JDBC-Band-Registration-DataBase-Project
 
 ### 2. Configure o banco de dados
 
-Execute o script SQL abaixo no seu MySQL para criar o banco e a tabela:
+Execute o script SQL disponivel no arquivo do projeto pelo nome "schema.sql" para criar o banco no MySQL
 
-```sql
-CREATE DATABASE IF NOT EXISTS bandas_db;
-USE bandas_db;
-
-CREATE TABLE IF NOT EXISTS bands (
-    id   INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    genre VARCHAR(50),
-    members INT
-);
-```
 
 ### 3. Configure a conexão
 
